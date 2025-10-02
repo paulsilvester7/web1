@@ -7,6 +7,8 @@
 div{
     padding:2px;
     margin: 10px;
+    font-family:'Times New Roman', Times, serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 h1{
@@ -14,6 +16,13 @@ h1{
     text-align: center;
 }
 
-.imagen{
-    
+h5{
+     border-radius: 15px;
+     background-color: whitesmoke;
+     padding: 2px;
+}
+
+.imagen,.lessons, ol, li, .perception, .gratitude, .intro{
+    border-radius: 18px;
+    background-color: pink;
 }
