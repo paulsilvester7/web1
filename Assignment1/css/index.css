@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    border: 0;
+    background-color: beige;
+}
+
+div{
+    padding:2px;
+    margin: 10px;
+}
+
+h1{
+    margin-left: 250px;
+    text-align: center;
+}
+
+.imagen{
+    
+}
