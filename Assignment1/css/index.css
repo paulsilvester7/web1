@@ -1,28 +1,100 @@
-*{
+
+* {
     margin: 0;
     border: 0;
+    box-sizing: border-box;
     background-color: beige;
 }
 
-div{
-    padding:2px;
-    margin: 10px;
-    font-family:'Times New Roman', Times, serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+div {
+    padding: 10px;
+    margin: 10px auto;
+    font-family: 'Times New Roman', Times, serif, 
+                 'Lucida Sans', 'Lucida Sans Regular', 
+                 'Lucida Grande', 'Lucida Sans Unicode', 
+                 Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    line-height: 1.6;
 }
 
-h1{
-    margin-left: 250px;
+
+h1 {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2rem;
+    color: #4b2c2c;
+    text-shadow: 1px 1px 2px #ddd;
+}
+
+
+h5 {
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 6px 10px;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.imagen, 
+.list, 
+ol, 
+li,.intro,
+.perception,.gratitude{
+    border-radius: 18px;
+    background-color: pink;
+    padding: 10px;
+}
+
+.qualities,.lessons,.closing {
+    border-radius: 18px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.lessons ol {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.lessons li {
+    margin: 6px 0;
+}
+
+.memories {
+    border-radius: 18px;
+    background-color:aquamarine;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 850px;
     text-align: center;
 }
 
-h5{
-     border-radius: 15px;
-     background-color: whitesmoke;
-     padding: 2px;
+.memories video {
+    width: 100%;
+    max-width: 600px; 
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-top: 10px;
 }
 
-.imagen,.lessons, ol, li, .perception, .gratitude, .intro{
-    border-radius: 18px;
-    background-color: pink;
+.imagen {
+    text-align: center;
+}
+
+.imagen img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.imagen caption {
+    display: block;
+    font-style: italic;
+    color: #333;
+    font-size: 0.95rem;
 }
