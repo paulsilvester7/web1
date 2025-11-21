@@ -1,0 +1,217 @@
+<HTML>
+    <HEAD> <TITLE>Welcome to Kingstone hospital</TITLE> 
+    </HEAD> 
+    <frameset cols="25%,50%,25%"> 
+        <frame noresize="noresize" src="index.html" /> 
+        <frame src="icu.html" /> 
+        <frame src="pharmacy.html"" /> 
+    </frameset> 
+</HTML>
+
+<HTML>
+    <HEAD> <TITLE>Welcome to Kingstone hospital</TITLE> 
+    </HEAD> 
+    <frameset rows="25%,50%,25%"> 
+        <frame src="index.html" /> 
+        <frame src="icu.html" /> 
+        <frame src="pharmacy.html"/> 
+    </frameset> 
+</HTML>
+
+<HTML> 
+    <HEAD> <TITLE>Welcome to Kingstone hospital</TITLE> 
+    </HEAD> 
+    <frameset rows="50%,50%"> 
+        <frame src="index.html" /> 
+        <frameset cols="25%,75%"> 
+            <frame src="icu.html" /> 
+            <frame src="pharmacy.html" /> 
+        </frameset> 
+    </frameset> 
+</HTML>
+
+
+<HTML> 
+    <HEAD> 
+        <TITLE>Welcome to Kingstone hospital </TITLE> 
+    </HEAD> 
+    <BODY Bgcolor ="pink" Text = "Navy" Link="Magenta"> 
+        <center><H1>Kingstone hospital </H1></center> 
+        <H2 align = "center"><I>Welcome</I></H2>
+        <HR color = "magenta" size = "5">
+            <Marquee behavior="alternate"> Welcome to kingstone hospital </Marquee> 
+            <p><B><H1>Welcome to Kingston Hospital</B></H1> 
+                <p align="center"><a href ="index.html" target ="geo">Visit Index page</a> 
+                    <p align="center"><a href ="pharmacy.html" target ="geo">Visit Pharmacy page</a> 
+                        <p align="center"><a href ="icu.html" target ="geo">Visit Icu page</a> 
+                            <p align="center"><a href ="nursing.html" target ="geo">Visit Nursing page</a> 
+                                <center><IMG SRC = "index.jpg" border="2" height="200" width="400" alt="Hospital" title="Kingston"></center> 
+                                    <P align = "right">Date: 18<sup>th</sup> Feb 2025 
+                                    
+    </BODY> 
+</HTML>
+
+
+<HTML>
+    <HEAD> 
+        <TITLE>Welcome to Kingstone hospital</TITLE> 
+    </HEAD> 
+    <frameset cols="50%,50%"> 
+        <frame src="FRAMENAV1.html" /> 
+        <frame src="index.html" name="geo"/> 
+    </frameset> 
+</HTML>
+
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Welcome to Kingstone Hospital</title> 
+    </head> 
+    <body style="margin: 0;"> 
+        <iframe src="index.html" style="width: 25%; height: 100vh; border: none; float: left;"></iframe> 
+        <iframe src="icu.html" style="width: 50%; height: 100vh; border: none; float: left;"></iframe> 
+        <iframe src="pharmacy.html" style="width: 25%; height: 100vh; border: none; float: left;"></iframe> 
+    </body> 
+</html>
+
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Welcome to Kingstone Hospital</title> 
+        <style> 
+            html, body { 
+                        margin: 0; 
+                        padding: 0; 
+                        border: 0; 
+                        height: 100%; 
+                        overflow: 
+                        hidden; /* Hide main scrollbar */ 
+            } 
+            
+            iframe { 
+                width: 100vw; 
+                border: none; 
+                overflow: auto; /* Add scroll bars if content exceeds iframe height */ 
+            } 
+        </style> 
+        
+    </head> 
+    
+    <body> 
+        <iframe src="index.html" style="height: 25%;"></iframe> 
+        <iframe src="icu.html" style="height: 50%;"></iframe> 
+        <iframe src="pharmacy.html" style="height: 25%;"></iframe> 
+    </body> 
+</html>
+
+
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Welcome to Kingstone Hospital</title> 
+        <style> 
+            html, body {
+                margin: 0; 
+                padding: 0; 
+                border: 0; 
+                height: 100%; 
+            } 
+            
+            iframe { 
+                border: none; 
+                width: 100%; /* Set the width to 100% */ 
+                height: 50%; } 
+        </style> 
+    </head> 
+    <body> 
+        <iframe src="index.html"></iframe> 
+        <iframe src="icu.html" style="width: 25%; float: left;"></iframe> 
+        <iframe src="pharmacy.html" style="width: 75%; float: left;"></iframe> 
+    </body>
+</html>
+
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Welcome to Kingstone Hospital</title> 
+        <style> body { background-color: pink; color: navy; font-family: Arial, sans-serif; margin: 0; padding: 0; }
+                h1 {
+                    text-align: center;
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                }
+
+                h2 {
+                    text-align: center;
+                    font-style: italic;
+                }
+
+                hr {
+                    border: 2px solid magenta;
+                }
+
+                marquee {
+                    color: magenta;
+                }
+
+                p {
+                    text-align: center;
+                    margin: 10px 0;
+                }
+
+                a {
+                    color: magenta;
+                    text-decoration: none;
+                    margin: 0 10px;
+                }
+
+                img {
+                    display: block;
+                    margin: 0 auto;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                sup {
+                    font-size: 70%;
+                }
+
+                .date {
+                    text-align: right;
+                    font-size: 14px;
+                    margin-right: 20px;
+                }
+        </style>
+    </head> 
+    <body> 
+                <h1>Welcome to Kingstone Hospital</h1> 
+                <h2>Welcome</h2> 
+                <hr> <marquee behavior="alternate">Welcome to Kingstone Hospital</marquee>
+        <p><strong>Welcome to Kingston Hospital</strong></p>
+
+        <p><a href="index.html" target="geo">Visit Index page</a>
+            <a href="pharmacy.html" target="geo">Visit Pharmacy page</a>
+            <a href="icu.html" target="geo">Visit Icu page</a>
+            <a href="nursing.html" target="geo">Visit Nursing page</a></p>
+
+        <center><img src="index.jpg" height="200" width="400" alt="Hospital" title="Kingston"></center>
+
+        <p class="date">Date: 23<sup>rd</sup> Feb 2024</p>
+    </body> 
+</html>
+
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Welcome to Kingstone hospital</title> 
+    </head> 
+    <body style="margin: 0;"> 
+        <iframe src="FRAMENAV1.html" style="width: 50%; height: 100vh;; border: none; float: left;"></iframe> 
+        <iframe src="index.html" name="geo" style="width: 50%; height: 100vh;; border: none; float: left;"></iframe> 
+    </body> 
+</html>
