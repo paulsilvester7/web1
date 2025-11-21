@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Silvester Paul</title>
+  <meta name="description" content="Contact Silvester Paul — email, phone, social links and contact form with client-side validation.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+<header class="header card" role="banner">
+  <div class="brand">
+    <div class="logo" aria-hidden="true">SP</div>
+    <div>
+      <div class="title">Silvester Paul Mwinzi</div>
+      <div class="small">Web & IT Support · Remote Tech Support</div>
+    </div>
+  </div>
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="childhood.html">Childhood</a>
+    <a href="education.html">Education</a>
+    <a href="skills.html">Skills</a>
+    <a href="future.html">Future</a>
+    <a href="contact.html">Contact</a>
+    <a class="btn" href="https://github.com/paulsilvester7" target="_blank" rel="noopener">GitHub</a>
+  </nav>
+</header>
+
+    <main>
+      <section class="card fadein">
+        <h1>Contact</h1>
+        <p class="small">Reach out for project collaborations, Job or internship opportunities.</p>
+        <p class="small"><strong>Email:</strong> <a href="mailto:mwinzipaul@outlook.com">mwinzipaul@outlook.com</a><br><strong>Phone:</strong> +254 717 100 427</p>
+        <p class="small">GitHub: <a href="https://github.com/paulsilvester7" target="_blank">https://github.com/paulsilvester7</a></p>
+      </section>
+
+      <section class="card fadein" aria-labelledby="form">
+        <h2 class="section-title" id="form">Send a message</h2>
+        <form id="contactForm" class="fadein" aria-label="Contact form">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your name" aria-label="Your name" required>
+            <input type="email" name="email" placeholder="Your email" aria-label="Your email" required>
+          </div>
+          <div class="form-row">
+            <input type="text" name="subject" placeholder="Subject (optional)" aria-label="Subject">
+          </div>
+          <div class="form-row">
+            <textarea name="message" rows="6" placeholder="Your message" aria-label="Message" required></textarea>
+          </div>
+          <div style="display:flex;gap:10px;align-items:center;">
+            <input class="btn" type="submit" value="Send message">
+            <div id="formOutput" class="small" role="status" aria-live="polite"></div>
+          </div>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="footer small">© 2025 · <a href="https://github.com/paulsilvester7">https://github.com/paulsilvester7</a></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
